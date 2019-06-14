@@ -12,16 +12,17 @@ import Instructions from './Instructions';
 */
 class Content extends Component {
   renderContent = () => {
-    if (false) {
-      return <NoteEditor />;
-    } else if (false) {
-      return <NoteViewer />;
+    if (this.props.isEditing) {
+      return <NoteEditor note={this.props.note} />;
+    } else if (this.props.note.id) {
+      return <NoteViewer note={this.props.note} isEditing={this.props.isEditing} toggleEditNote={this.props.toggleEditNote}/>;
     } else {
       return <Instructions />;
     }
   }
 
   render() {
+    console.log(this.props);
     return (
       <div className='master-detail-element detail'>
         {this.renderContent()}

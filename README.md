@@ -73,9 +73,9 @@ Look at the gif below to see how the app should look and behave. These are the b
 
 **Viewing and Displaying Notes**
 
-- [ ] Display all notes in the left sidebar.
-- [ ] Displayed sidebar notes should show the title and a truncated body.
-- [ ] When clicking a note from the sidebar, display its contents in the right panel.
+<!-- - [ ] Display all notes in the left sidebar. -->
+<!-- - [ ] Displayed sidebar notes should show the title and a truncated body. -->
+<!-- - [ ] When clicking a note from the sidebar, display its contents in the right panel. -->
 
 ![result](react-evernote-display.gif)
 
